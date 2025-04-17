@@ -1,0 +1,25 @@
+[package]
+name = "solana-meteor"
+version = "0.1.0"
+description = "Created with Anchor"
+edition = "2021"
+
+[patch.crates-io]
+proc-macro2 = { version = "1.0.95", features = ["span-locations"] }
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "solana_meteor"
+
+[features]
+default = []
+cpi = ["no-entrypoint"]
+no-entrypoint = []
+no-idl = [] 
+no-log-ix-name = []
+idl-build = ["anchor-lang/idl-build"]
+
+
+[dependencies]
+anchor-lang = "0.31.0"
+
