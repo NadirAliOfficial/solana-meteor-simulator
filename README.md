@@ -47,4 +47,4 @@ A Solana blockchain simulator for Meteor pool activation and transaction testing
 3. Run tests:
    ```bash
    anchor test
-<!-- updated: 2024-11-26-r01 -->
+<!-- updated: 2025-05-03-r01 -->
